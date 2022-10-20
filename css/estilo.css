@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(../img/acuarela1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: #969ceb;
+    height:7rem;
+    position: sticky;
+    top:0px;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin:2rem;
+}
+ul li .a_nav{
+    text-decoration: none;
+    background-color: rgb(223, 219, 226);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 23em/5em 1rem;
+    color:#91107bf5;
+}
+.a_nav:hover { 
+background-color: #521bb9;
+color: #70def1;
+}
+.logo{
+    height: 5rem;
+    width: 8rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+}
+h1{
+    font-family: 'Peralta', cursive;
+    margin: 5px 20px 5px 20px;
+    color: #b31a8c;
+    font-weight: normal;
+}
+.container_h1{
+    border-style: double;
+    color:#b31a8c;
+    padding: 1px;
+}
+.titulo_introduccion{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5rem;
+    border-style: dotted;
+    border-width:3px;
+    color:#11226d;
+    font-family: 'Dancing Script', cursive;
+}
+.p_introduccion{
+    font-size: 3rem;
+    text-align:center;
+    margin: 4rem;
+    font-family: 'Noto Serif', serif;
+}
+.introduccion_a_productos:hover{
+background-color: coral;
+}
+.bienvenida_p{
+    display: flex;
+    font-size: 3rem;
+    margin: 5rem 3rem;
+    padding: 2rem;
+    text-align: center;
+    border-style:ridge;
+    flex-direction: column;
+    line-height: 2;
+    background-image: url(../img/fondo\ parrafo.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+video{
+    width: 80rem;
+    height: 50rem;
+}
+.bienvenida{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#titulo_productos{
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0rem 3rem 0rem;
+    text-decoration: underline;
+    font-family: 'Noto Serif', serif;
+}
+.productos_p{
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem;
+    font-family: 'Noto Serif', serif;
+}
+.productos{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+.imagenes_productos{
+    display: flex;
+    justify-content:space-around;
+}
+.a_productos{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0rem 2rem 0rem;
+    font-family: 'Noto Serif', serif;
+}
+.a_productos_enlace:hover {
+    background-color: coral;
+}
+.a_productos a{
+    text-decoration: none;
+}
+.atencion_personalizada{
+    font-size: 2rem;
+    text-decoration:underline;
+    text-align:center;
+    margin: 5rem;
+    font-family: 'Noto Serif', serif;
+}
+footer{
+    height: 5rem;
+    background-color: #888fec;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.red_social{
+    height: 3rem;
+    width: 3rem;
+}
+footer p{
+    font-size: 2rem;
+}
+footer div a{
+    margin: 2rem;
+}
+/*Pagina Productos */
+section .container_imagenesProductos{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.container_imagenesProductos img{
+    margin: 1.2rem;
+}
+/* Pagina Contacto */
+.lista_info{
+    display: flex;
+    font-size: 3rem;
+    margin: 3rem;
+    justify-content: center;
+    border-style:ridge;
+    font-family: 'Noto Serif', serif;
+}
+.lista_info ul li{
+    margin: 2rem;
+}
+.p_formulario{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Noto Serif', serif;
+}
+form {
+    margin: 0 auto;
+    width: 70rem;
+    height: 50rem;
+    padding: 5rem;
+    font-size: 2rem;
+    font-family: 'Noto Serif', serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li{
+    margin-top: 2rem;
+}
+label{
+    display: inline-block;
+    width: 20rem;
+    text-align: right;
+}
+input, textarea{
+    font: 1em sans-serif;
+    width: 30rem;
+}
+.button{
+    padding-left: 50px;
+}
+textarea{
+    resize: none;
+    height: 15rem;
+}
+/* Pagina Sobre nosotros */
+.preguntas_sobrenostros-h3{
+    text-align: center;
+    font-size: 3rem;
+}
+.preguntas_sobrenostros_p{
+    font-size: 3rem;
+    text-align:center;
+}
+.section_contacto{
+    border-style:ridge;
+    margin: 4rem;
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+    background-attachment: fixed;
+}
+/* Pagina Ubicacion */
+.ubicacion_mapa iframe{
+    margin-bottom: 5rem;
+    position: relative;
+    width: 80rem;
+    height: 40rem;
+    left: 25rem;
+    top:2rem;
+}
